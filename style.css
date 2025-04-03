@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%); /* Yellow background */
+    display: flex;
+    justify-content: center; /* Center the box horizontally */
+    align-items: center; /* Center the box vertically */
+    height: 100vh;
+}
+
+.box {
+    width: 380px; /* Reduced width */
+    height: 520px; /* Increased height */
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid black; /* Less thick border */
+    box-shadow: 8px 8px 0px black; /* Boxy, sharp, and completely black shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push author to the bottom */
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.box .tag {
+    background-color: hsl(47, 88%, 63%);
+    color: #111; /* Made text darker */
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.box .date {
+    font-size: 0.9em;
+    color: #333; /* Made text dark */
+    margin-bottom: 10px;
+}
+
+.box h1 {
+    font-size: 1.2em; /* Reduced font size */
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #111; /* Made text darker */
+    text-align: left; /* Align text to the left */
+}
+
+.box p {
+    font-size: 0.9em; /* Reduced font size */
+    color: #666;
+    text-align: left; /* Align text to the left */
+    margin: 0 0 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.author .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author .author-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
